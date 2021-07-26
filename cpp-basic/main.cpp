@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    int number = 0;
+    int one = 1;
+    int two = 2;
+    int sum = one + two;
     
-    cin >> number;
-    
-    cout << "cin number is " << number << endl;
+    cout << "1 + 2 = " << sum << endl;
     
     return 0;
 }
