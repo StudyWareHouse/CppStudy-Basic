@@ -2,8 +2,13 @@
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
-    cout << "Hello, World!\n";
-
+int main()
+{
+    int number = 0;
+    
+    cin >> number;
+    
+    cout << "cin number is " << number << endl;
+    
     return 0;
 }
