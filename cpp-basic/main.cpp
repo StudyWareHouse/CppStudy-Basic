@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    int one = 1;
-    int two = 2;
-    int sum = one + two;
+    const int GREAT_VICTORY_SALSU = 612;
+    const int GREAT_VICTORY_GWIJU = 1019;
     
-    cout << "1 + 2 = " << sum << endl;
+    cout << "고구려 살수대첩: " << GREAT_VICTORY_SALSU << "년" << endl;
+    cout << "고려 귀주대첩: " << GREAT_VICTORY_GWIJU << "년" << endl;
     
     return 0;
 }
