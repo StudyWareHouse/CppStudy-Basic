@@ -4,14 +4,18 @@ using namespace std;
 
 int main()
 {
-    int x = 10;
-    int y = 1;
+    int sum1 = 0;
+    int sum2 = 0;
     
-    if (x > y) {
-        cout << "x는 y보다 큽니다." << endl;
-    } else {
-        cout << "x는 y보다 작습니다." << endl;
+    int one = 1;
+    int two = 2;
+    
+    for (int i = 0; i < 5; i++) {
+        sum1 += one;
+        sum2 += two;
     }
+    
+    cout << "합산 결과 : " << sum1 << ", " << sum2 << endl;
     
     return 0;
 }
