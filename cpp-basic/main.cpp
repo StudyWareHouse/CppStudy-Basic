@@ -4,18 +4,16 @@ using namespace std;
 
 int main()
 {
-    int sum1 = 0;
-    int sum2 = 0;
+    const int kArraySize = 3;
     
-    int one = 1;
-    int two = 2;
+    int founding[kArraySize];
+    founding[0] = 999;
+    founding[1] = 124;
+    founding[2] = 940;
     
-    for (int i = 0; i < 5; i++) {
-        sum1 += one;
-        sum2 += two;
-    }
-    
-    cout << "합산 결과 : " << sum1 << ", " << sum2 << endl;
+    cout << "0 : " << founding[0] << endl;
+    cout << "1 : " << founding[1] << endl;
+    cout << "2 : " << founding[2] << endl;
     
     return 0;
 }
